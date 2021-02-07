@@ -6,14 +6,14 @@
 //
 
 import UIKit
+import SwiftyGiphy
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        SwiftyGiphyAPI.shared.apiKey = "mx2WFzqPozmjZoqYA2WNTQDaDNUlgON6" //SwiftyGiphyAPI.publicBetaKey
         return true
     }
 
